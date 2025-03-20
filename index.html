@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Carros - Usuários</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <h1>Cadastro de Carros</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#usuarios">Usuários</a></li>
+        <li><a href="#adicionar">Adicionar Usuário</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="usuarios">
+      <h2>Lista de Usuários</h2>
+      <ul id="lista-usuarios">
+      </ul>
+    </section>
+
+    <section id="adicionar">
+      <h2>Adicionar Novo Usuário</h2>
+      <form id="form-usuario">
+        <input type="text" id="nome" placeholder="Nome" required>
+        <input type="text" id="usuario" placeholder="Usuário" required>
+        <input type="tel" id="telefone" placeholder="Telefone" required>
+        <input type="email" id="email" placeholder="E-mail" required>
+        <button type="submit">Adicionar Usuário</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Cadastro de Carros</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
